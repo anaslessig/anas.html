@@ -1,0 +1,409 @@
+.card-link {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit color from parent */
+}
+
+.card {
+  padding: 2px;
+  margin: 20px;
+  width: 300px;
+  border-radius: 5px;
+  background: white;
+  box-shadow: 5px 5px 6px #dadada,
+               -5px -5px 6px #f6f6f6;
+  transition: 0.4s;
+  height: 350px;
+}
+
+.card:hover {
+  translate: 0 -10px;
+}
+
+.image-container1 p {
+  font-size: 24px;
+  font-weight: 600;
+  color: #c0c6d4;
+  padding: 10px;
+  margin: 15px 0 0 10px;
+}
+
+.card-image {
+  height: 80%;
+  background-color: #c9c9c9;
+  border-radius: 5px;
+ 
+}
+
+
+
+
+.by-name {
+  font-weight: 700;
+}
+    .image-container1{
+
+  
+display: grid;
+grid-template-columns: repeat(3, 1.5fr);
+width: fit-content;
+
+background-color: white;
+border-radius: 20px;
+
+    margin-left: 20px;
+
+
+}
+    .textcontainer2{
+        margin-left: 220px; 
+max-width: 1020px;
+margin-top: 100px;
+text-align: center;}  
+
+.textcontainer2 a{
+  font-size: 1.625em;
+  margin: 0.25em 0 0.35em;
+  padding-right: 1em;
+  color: #00b39b;
+  font-family: Work Sans, Arial, sans-serif;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+} 
+.textcontainer2 p{
+    font-size: 15px;
+    color: #2e2e2e;
+   font-weight: lighter;
+
+} 
+
+
+.container p{
+    text-align: left;
+    font-family: Tahoma;
+    font-size: 22px;
+    margin-left: 40px;
+    color: #08bca4;
+    font-weight:lighter ;
+    margin-top: 60px;
+}
+ .container {
+  display: grid;
+  align-items: left;
+  grid-template-columns: repeat(2, 1.5fr);
+  margin-top: -3px;
+
+
+}
+
+.image-container {
+  display: grid;
+  flex-wrap: wrap;
+  grid-template-columns: repeat(4, 1.5fr);
+
+
+
+}
+
+.image-container img {
+   height: 20px;
+  width: 50px;
+margin-top:   30px;
+margin-right:80px;
+margin-left: -30px;
+}  
+.logo {
+  display: relative;
+  margin: left;
+}
+
+.logo img {
+  width: 30px;
+  height: 30px;
+}
+.textcontainer {
+margin-left: 220px; 
+max-width: 1120px;
+margin-top: 100px;
+text-align: center;}
+.navbar {
+  display: flex;
+  margin-top: 23px;
+  align-items: center; /* Align items vertically in the center */
+  margin-right: 75px;
+}
+
+.logo {
+  margin-right: auto; /* Push the logo to the left */
+  padding: 20px;
+}
+
+.navtools {
+  display: flex;
+  margin-left: 500px;
+  gap: 1.5rem;
+}
+#About,
+#Career:hover,
+#Departments:hover {
+  color: #00b39b;
+  text-decoration: none;
+}
+#Career,
+#Departments {
+  color: #ababab;
+}
+.navtools {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 45% 45%;
+  grid-gap: 10px;
+  padding: 30px;
+}
+.card-container {
+    display: flex;
+  justify-content: space-around;
+    grid-template-columns: repeat(3, 1.5fr);
+    margin-left:20px;
+    width: fit-content;
+}
+
+.card1 {
+  box-sizing: border-box;
+  width: 310px;
+  height: 340px;
+  background: #08bca4;
+  border: 1px solid white;
+  box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+  backdrop-filter: blur(6px);
+  border-radius: 17px;
+  text-align: left;
+  cursor: pointer;
+  transition: all 0.5s;
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  user-select: none;
+  font-weight: bolder;
+  color: white;
+  margin: 5px;
+ 
+  justify-content: center;
+  flex-direction: column;
+
+  
+  
+ 
+}
+.card2 {
+  box-sizing: border-box;
+  width: 310px;
+  height: 340px;
+  background: #3d83df;
+  border: 1px solid white;
+  box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+  backdrop-filter: blur(6px);
+  border-radius: 17px;
+  text-align: left;
+  cursor: pointer;
+  transition: all 0.5s;
+  display: flex;
+  align-items: left;
+
+  justify-content: center;
+  user-select: none;
+  font-weight: bolder;
+  color: white;
+  
+ 
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 10px;
+}
+.card3 {
+  box-sizing: border-box;
+  width: 310px;
+  height: 340px;
+  background: #1b2734;
+  border: 1px solid white;
+  box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+  backdrop-filter: blur(6px);
+  border-radius: 17px;
+  text-align: left;
+
+  cursor: pointer;
+  transition: all 0.5s;
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  user-select: none;
+  font-weight: bolder;
+  color: white;
+ 
+ 
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 10px;
+}
+.logo1{
+margin-left: 240px;
+    
+}
+.titlee{
+margin-top: 15px; margin-bottom: 15px;
+}
+.text1{
+text-align: left;
+font-family: arial;
+color: #797878;
+line-height: 1.4;
+}
+
+.text2{
+text-align: left;
+font-family: arial;
+color: #797878;
+line-height: 1.4;
+
+}
+.log{
+  position: absolute;
+  top: 40px;
+  left: 40px;    
+}
+.log img {
+  width: 30px;
+  height: 30px;
+}
+.card1 a {
+  margin-left: 40px;
+  text-align: left;
+  font-size: 30px;
+  font-family: arial;
+  font-weight: lighter;
+  margin-top: 45px;
+
+}
+
+.card2 a {
+  margin-left: 40px;
+  text-align: left;
+  font-size: 30px;
+  font-family: arial;
+  font-weight: lighter;
+  margin-top: 50px;
+}
+
+.card3 a {
+  margin-left: 40px;
+  text-align: left;
+  font-size: 30px;
+  font-family: arial;
+  font-weight: lighter;
+  margin-top: 45px;
+}
+
+.card1 p {
+  margin-left: 40px;
+  text-align: left;
+  font-size: 22px;
+  font-family: arial;
+  font-weight: lighter;
+  margin-top: 20px;
+  
+}
+
+
+.card2 p {
+  margin-left: 40px;
+  text-align: left;
+  font-size: 22px;
+  font-family: arial;
+  font-weight: lighter;
+  margin-top: 20px;
+}
+
+
+.card3 p {
+  margin-left: 40px;
+  text-align: left;
+  font-size: 22px;
+  font-family: arial;
+  font-weight: lighter;
+  margin-top: 20px;
+}
+#select1 {
+    margin-left: 40px;
+    text-align: left;
+    font-size: 22px;
+    font-family: arial;
+    margin-top: 50px;
+    
+}
+
+#select2 {
+    margin-left: 40px;
+    text-align: left;
+    font-size: 22px;
+    font-family: arial;
+    margin-top: 30px;
+}
+#select3 {
+    margin-left: 40px;
+    text-align: left;
+    font-size: 22px;
+    font-family: arial;
+    margin-top: 30px;
+}
+.card-container select{
+
+  font-size: 18px;
+    color: white;
+    text-decoration: underline;
+    background-color: rgba(255, 255, 255, 0);
+border: none;
+}
+.card-container .card1 option{
+    background-color: #08bca4 ;
+}
+.card-container .card2 option{
+    background-color: #3d83df ;
+}
+.card-container .card3 option{
+    background-color: #1b2734 ;
+}
+#About{
+    color: #08bca4 ;
+}
+.card1, .card2, .card3 {
+  margin: 0 10px; /* Adjust the value to reduce or increase the spacing */
+}
+.image-container1 button{
+    background-color: #3d83df;
+    height: 30px;
+    width: 115px;
+    font-size: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    margin-left: 90px;
+    color: white;
+    border: none;
+}
+
+.button1{
+    background-color: #3d83df;
+    height: 40px;
+    width: 200px;
+    font-size: 10px;
+    margin-top: 8px;
+    border-radius: 5px;
+    margin-left:20px;
+    color: white;
+    border: none;  
+}
+
